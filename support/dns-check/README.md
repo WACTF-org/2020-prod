@@ -2,7 +2,7 @@
 |--- | --- |
 | Developer Name(s) | sudosammy |
 | Best Contact Slack handle / Email address | sudosammy |
-| Challenge Category | misc |
+| Challenge Category | support |
 | Challenge Tier | 0 |
 | Challenge Type | Container |
 
@@ -25,23 +25,24 @@
 
 ```
 version: '3'
+
 services:
-  misc-0:
-    container_name: misc-0-dns-check
-    build: ./misc-0/
-    image: registry.capture.tf:5000/wactf0x04/misc-0-dns-check
-    ports:
-      - 80:8000
-    deploy:
-      resources:
-        limits:
-          cpus: '0.10'
-          memory: 15M
-        reservations:
-          cpus: '0.05'
-          memory: 10M
-    cap_drop:
-      - NET_RAW
+    misc-0:
+        container_name: dns-check
+        build: ./dns-check/
+        image: registry.capture.tf:5000/wactf0x04/dns-check
+        ports:
+          - 80:8000
+        deploy:
+          resources:
+            limits:
+              cpus: '0.10'
+              memory: 15M
+            reservations:
+              cpus: '0.05'
+              memory: 10M
+        cap_drop:
+          - NET_RAW
 ```
 
 # Challenge PoC.py
