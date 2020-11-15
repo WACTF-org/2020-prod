@@ -20,7 +20,7 @@ Oh god why
 |Exploit - 0 | X | Luke | [exploit-0](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-0) | [exploit-0](https://github.com/WACTF-org/lukehealy-challenges/issues/1) |
 |Exploit - 1 |  | Chris |
 |Exploit - 2 |  | Jorel |
-|Exploit - 3 |  | Cam | [exploit-3](https://github.com/WACTF-org/c-sto-challenges/tree/master/crypto-2) | [exploit-3](https://github.com/WACTF-org/c-sto-challenges/issues/1) |
+|Exploit - 3 | X | Cam | [exploit-3](https://github.com/WACTF-org/c-sto-challenges/tree/master/crypto-2) | [exploit-3](https://github.com/WACTF-org/c-sto-challenges/issues/1) |
 |Exploit - 4 | X | Luke | [exploit-4](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-4) | [exploit-4](https://github.com/WACTF-org/lukehealy-challenges/issues/2)
 |Exploit - 5 | X | Luke |
 |Crypto - 0 |  | Cam |
@@ -36,5 +36,5 @@ Oh god why
 |Forensics - 4 | X | CJ (jack???) | [forensics-4](https://github.com/WACTF-org/jib1337-challenges/tree/master/forensics-4) | [forensics-4](https://github.com/WACTF-org/jib1337-challenges/issues/1) |
 |Forensics - 5 |  | Jack N |
 |Misc - 0 | ??? | (?) Sudosammy (dns-check) | |
-|Misc - 1 |  | sysophost | [misc-1](https://github.com/WACTF-org/sysophost-challenges/tree/master/misc-1) | [misc-1](https://github.com/WACTF-org/sysophost-challenges/issues/1) |
-|Misc - 2 |  | Dr Perpper Pig (CISSP) | [misc-2](https://github.com/WACTF-org/kronicd-challenges/tree/master/misc-2) |
+|Misc - 1 | X | sysophost | [misc-1](https://github.com/WACTF-org/sysophost-challenges/tree/master/misc-1) | [misc-1](https://github.com/WACTF-org/sysophost-challenges/issues/1) |
+|Misc - 2 | X | Dr Perpper Pig (CISSP) | [misc-2](https://github.com/WACTF-org/kronicd-challenges/tree/master/misc-2) |
