@@ -31,5 +31,6 @@ Oh god why
 |Forensics - 2 |  |   |
 |Forensics - 3 |  |  |
 |Forensics - 4 |  |   |
+|Misc - 0 | R | Sudosammy (dns-check) |
 |Misc - 1 |  |  |
 |Misc - 2 |  |  |
