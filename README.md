@@ -24,7 +24,7 @@ Since we are (mis)using git, you may run into problems when commiting etc. Reali
 |Exploit - 2 |  | Jorel |
 |Exploit - 3 | X | Cam | [exploit-3](https://github.com/WACTF-org/c-sto-challenges/tree/master/crypto-2) | [exploit-3](https://github.com/WACTF-org/c-sto-challenges/issues/1) |
 |Exploit - 4 | X | Luke | [exploit-4](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-4) | [exploit-4](https://github.com/WACTF-org/lukehealy-challenges/issues/2)
-|Exploit - 5 | X | Luke |
+|Exploit - 5 | X | Luke | [exploit-5](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-5) | |
 |Crypto - 0 |  | Cam |
 |Crypto - 1 |  | Cam I guess |
 |Crypto - 2 | X | Cam | [crypto-2](https://github.com/WACTF-org/c-sto-challenges/tree/master/crypto-2) | [crypto-2](https://github.com/WACTF-org/c-sto-challenges/issues/2) |
