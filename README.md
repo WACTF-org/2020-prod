@@ -1,6 +1,8 @@
 # 2020-prod
 Oh god why
 
+# Git aw yeah such devops
+Since we are (mis)using git, you may run into problems when commiting etc. Realistically we should have a branch + merge workflow, but that's way too nerdy. You are most likely to run into git merge issues/conflicts if on two files, this readme.md (because you're updating the status), and the main docker-compose.yaml. Sometimes it will work fine, sometimes it really won't. [This link might help you in your struggles](https://docs.github.com/en/free-pro-team@latest/github/collaborating-with-issues-and-pull-requests/resolving-a-merge-conflict-using-the-command-line), otherwise just shout about it in the QA slack chan, and someone will either laugh at your pain (C_Sto), or might help you out.
 
 # Progress
 
