@@ -21,8 +21,8 @@ Since we are (mis)using git, you may run into problems when commiting etc. Reali
 |Web - 5 | X | Dono | [web-5](https://github.com/WACTF-org/dzflack-challenges/tree/master/web-5) | [web-5](https://github.com/WACTF-org/dzflack-challenges/issues/1)|
 |Exploit - 0 | X | Luke | [exploit-0](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-0) | [exploit-0](https://github.com/WACTF-org/lukehealy-challenges/issues/1) |
 |Exploit - 1 | X | Chris | [exploit-1](https://github.com/WACTF-org/0xdecode-challenges/tree/master/exploit-1)| [exploit-1](https://github.com/WACTF-org/0xdecode-challenges/issues/1)|
-|Exploit - 2 |  | Jorel | Currently Duped with exploit-3 | |
-|Exploit - 3 | X | Cam | [exploit-3](https://github.com/WACTF-org/c-sto-challenges/tree/master/crypto-2) | [exploit-3](https://github.com/WACTF-org/c-sto-challenges/issues/1) |
+|Exploit - 2 | X | Cam | [exploit-2](https://github.com/WACTF-org/c-sto-challenges/tree/master/crypto-2) | [exploit-2](https://github.com/WACTF-org/c-sto-challenges/issues/1) |
+|Exploit - 3 | X | Jorel | [exploit-3](https://github.com/WACTF-org/jorelpaddick-challenges/tree/master/exp-3) | [exploit-3](https://github.com/WACTF-org/jorelpaddick-challenges/issues/1)|
 |Exploit - 4 | X | Luke | [exploit-4](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-4) | [exploit-4](https://github.com/WACTF-org/lukehealy-challenges/issues/2)
 |Exploit - 5 | X | Luke | [exploit-5](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-5) | [exploit-5](https://github.com/WACTF-org/lukehealy-challenges/issues/3) |
 |Crypto - 0 |  | Cam |
