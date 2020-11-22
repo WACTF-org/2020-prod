@@ -1,0 +1,69 @@
+<html>
+<link rel="stylesheet" href="/assets/w3.css">
+<link rel="stylesheet" href="/assets/raleway.css">
+
+<body class="w3-light-grey">
+    <style>
+table{
+border-collapse:collapse;
+border:3px solid #000000;
+width:50%;
+}
+table th{
+border:2px solid #000000;
+  margin-left: center; 
+  margin-right: auto;
+}
+table td{
+border:1px solid #000000;
+  margin-left: auto; 
+  margin-right: auto;
+}
+table.center {
+  margin-left: auto; 
+  margin-right: auto;
+}
+</style>
+    <div class="w3-center">
+        <header class="w3-container w3-center w3-padding-32">
+            <h1>Significant Election: 2020</h1>
+        </header>
+    </div>
+    <div class="w3-card-4 w3-margin w3-white w3-center">
+        <table class="center">
+            <th><b>Candidate</b></th>
+            <th><b>Voting Tally</b></th>
+            {{range $val := .Items}}
+            <tr>
+                <td>{{.Name}}</td>
+                <td>{{.Count}}
+                </td>
+            </tr>
+            {{end}}
+        </table>
+    </div>
+    <div class="w3-container w3-center w3-padding-32">
+        {{.PollStatus}}
+        <p class="w3-center">Check the results <a href="/results">Here!</a></p>
+    </div>
+    <div class="w3-card w3-margin">
+        <div class="w3-container w3-padding">
+            <h1 class="w3-center">Login to cast your vote</h1>
+        </div>
+        <div class="w3-container w3-white">
+            <p class="w3-center">Remember: you only get <i>one</i> vote, so make it count!</p>
+            <form class="w3-center" action="/login" method="POST">
+                <label for="username"><b>Username</b></label>
+                <input type="username" placeholder="Enter Username" name="username" required>
+                <label for="password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="password" required>
+                <button type="submit" style="column-span: all">Login</button>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                </label>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

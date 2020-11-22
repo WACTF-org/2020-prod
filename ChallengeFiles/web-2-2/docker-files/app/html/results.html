@@ -1,0 +1,42 @@
+<html>
+<link rel="stylesheet" href="/assets/w3.css">
+<link rel="stylesheet" href="/assets/raleway.css">
+
+<body class="w3-light-grey">
+    <style>
+    table,
+    th,
+    td {
+        border: 0px solid black;
+        border-collapse: collapse;
+    }
+
+    table.center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    </style>
+    <div class="w3-center">
+        <h1>Results:</h1>
+        The results are in:
+        <p>{{ .Data}}</p>
+        <div class="w3-card w3-margin">
+            <div class="w3-container w3-padding">
+                <h2>Return home?</h2>
+            </div>
+            <div class="w3-container w3-white">
+                <p><a href="/home">Click here ok?</a></p>
+            </div>
+        </div>
+        <div class="w3-card w3-margin">
+            <div class="w3-container w3-padding">
+                <h2>Reset the application?</h2>
+            </div>
+            <div class="w3-container w3-white">
+                <p><a href="/reset">Click here ok?</a></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

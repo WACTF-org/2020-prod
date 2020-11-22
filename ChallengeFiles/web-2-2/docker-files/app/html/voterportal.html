@@ -1,0 +1,41 @@
+<html>
+<html>
+<link rel="stylesheet" href="/assets/w3.css">
+<link rel="stylesheet" href="/assets/raleway.css">
+
+<body class="w3-light-grey">
+    <style>
+    table,
+    th,
+    td {
+        border: 0px solid black;
+        border-collapse: collapse;
+    }
+
+    table.center {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    </style>
+    <div class="w3-center">
+        <h1>Voter portal</h1>
+        <p>Hi {{.Name}},</p>
+        <div class="w3-card w3-margin">
+            <div class="w3-container w3-white">
+                <p>You have not voted yet. Please make your vote using the following form:</p>
+                <!-- {{range $val := .Candidates}}
+                <p>
+                    {{.}}
+                </p>
+                {{end}} -->
+                <form action="/vote" method="POST">
+                    <p>Your candidate:</p><input name="candidate" value=""></input>
+                    <input hidden=true name="nonce" value="{{.Nonce}}"></input>
+                    <button>Submit vote!</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

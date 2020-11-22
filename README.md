@@ -15,7 +15,8 @@ Since we are (mis)using git, you may run into problems when commiting etc. Reali
 |---|---|---|---|---|
 |Web - 0 |  | Deem |
 |Web - 1 | X | Lincoln, Laura | [web-1](https://github.com/WACTF-org/legendoflynkle-challenges/tree/master/web-1) (possible dupe [web-1](https://github.com/WACTF-org/ld-preload-challenges/tree/master/web-1-dependencycheck-filedrop) possible another dupe [web-1](https://github.com/WACTF-org/sysophost-challenges/tree/master/web-1)) |
-|Web - 2 | X | Dr Clinton Carpington (CEH), Laura | [web-2](https://github.com/WACTF-org/ld-preload-challenges/tree/master/web-2-hardcodedsecrets) [web-2-2](https://github.com/WACTF-org/swarley7-challfenges) | [web-2-2](https://github.com/WACTF-org/swarley7-challenges/issues/1) |
+|Web - 2 | X | Laura | [web-2](https://github.com/WACTF-org/ld-preload-challenges/tree/master/web-2-hardcodedsecrets)  | |
+|Web - 2 - 2 | R | Dr Clinton Carpington (CEH) | [web-2-2](https://github.com/WACTF-org/swarley7-challfenges) | [web-2-2](https://github.com/WACTF-org/swarley7-challenges/issues/1) |
 |Web - 3 |  | Sajeeb |
 |Web - 4 |  | Lincoln |
 |Web - 5 | $$$ | Dono | [web-5](https://github.com/WACTF-org/dzflack-challenges/tree/master/web-5) | [web-5](https://github.com/WACTF-org/dzflack-challenges/issues/1)|
