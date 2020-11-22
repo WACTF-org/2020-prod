@@ -1,3 +1,20 @@
 version: '3'
 
 services:
+
+  web-5:
+    container_name: web-5
+    build: ./web-5
+    image: registry.capture.tf:5000/wactf0x04/web-5
+    ports:
+      - 80:8080
+    deploy:
+      resources:
+        limits:
+          cpus: '0.10'
+          memory: 80M
+        reservations:
+          cpus: '0.05'
+          memory: 20M
+    cap_drop:
+      - NET_RAW
