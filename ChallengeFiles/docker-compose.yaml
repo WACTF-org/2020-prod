@@ -38,6 +38,23 @@ services:
     cap_drop:
       - NET_RAW
 
+  # Exploit chals
+  exp-4:
+    container_name: exp-4
+    build: ./exp-4
+    ports:
+      - "80:8000"
+      - "81:8001/udp"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.10'
+          memory: 50M
+        reservations:
+          cpus: '0.05'
+          memory: 10M
+    cap_drop:
+      - NET_RAW
 
   # Shellbox
   shellbox: # naming here is important
