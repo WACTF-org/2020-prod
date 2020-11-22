@@ -39,6 +39,24 @@ services:
       - NET_RAW
 
   # Exploit chals
+  exploit-2:
+    container_name: exploit-2
+    build: ./exploit-2/
+    image: registry.capture.tf:5000/wactf0x04/exploit-2
+    ports:
+      - 31337:31337
+      - 1337:1337
+    deploy:
+      resources:
+        limits:
+          cpus: '0.10'
+          memory: 20M
+        reservations:
+          cpus: '0.02'
+          memory: 10M
+    cap_drop:
+      - NET_RAW
+      
   exp-4:
     container_name: exp-4
     build: ./exp-4
