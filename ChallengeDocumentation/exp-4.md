@@ -14,8 +14,6 @@ Challenge Data:
 |Challenge Description | Someone has rolled their own network access control tool. I'm sure it's fine. | 
 |Challenge Hint 1 | I bet they stoled a crypto library off github... |
 |Challenge Hint 2 | How's the input validation? |
-|Docker Usage Idle | 5% CPU / 10MB RAM |
-|Docker usage Expected Peak | 10% CPU / 50MB RAM |
 
 | Admin Facing |  |
 |--- | --- |
