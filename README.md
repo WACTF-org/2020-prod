@@ -27,7 +27,7 @@ Since we are (mis)using git, you may run into problems when commiting etc. Reali
 |Exploit - 5 | X | Luke | [exploit-5](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-5) | [exploit-5](https://github.com/WACTF-org/lukehealy-challenges/issues/3) |
 |Crypto - 0 |  | Cam |
 |Crypto - 1 |  | Cam I guess |
-|Crypto - 2 | X | Cam | [crypto-2](https://github.com/WACTF-org/c-sto-challenges/tree/master/crypto-2) | [crypto-2](https://github.com/WACTF-org/c-sto-challenges/issues/2) |
+|Crypto - 2 | $$$ | Cam | [crypto-2](https://github.com/WACTF-org/c-sto-challenges/tree/master/crypto-2) | [crypto-2](https://github.com/WACTF-org/c-sto-challenges/issues/2) |
 |Crypto - 3 |  | Dono |
 |Crypto - 4 | R | Dylan | [crypto-4](https://github.com/WACTF-org/dpindur-challenges/tree/master/crypto-4) | [crypto-4](https://github.com/WACTF-org/dpindur-challenges/issues/2)
 |Crypto - 5 | X | Dylan | [crypto-5](https://github.com/WACTF-org/dpindur-challenges/tree/master/crypto-5) | [crypto-5](https://github.com/WACTF-org/dpindur-challenges/issues/3)
