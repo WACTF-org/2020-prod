@@ -57,9 +57,9 @@ services:
     cap_drop:
       - NET_RAW
       
-  exp-4:
-    container_name: exp-4
-    build: ./exp-4
+  exploit-4:
+    container_name: exploit-4
+    build: ./exploit-4
     ports:
       - "80:8000"
       - "81:8001/udp"
