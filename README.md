@@ -37,6 +37,6 @@ Since we are (mis)using git, you may run into problems when commiting etc. Reali
 |Forensics - 3 | X | CJ, Chris | [forensics-3](https://github.com/WACTF-org/xyantix-challenges/blob/master/forensics-3.md) (! possible dupe) | |
 |Forensics - 4 | X | CJ (jack???) | [forensics-4](https://github.com/WACTF-org/jib1337-challenges/tree/master/forensics-4) | [forensics-4](https://github.com/WACTF-org/jib1337-challenges/issues/1) |
 |Forensics - 5 |  | Jack N |
-|Misc - 0 | ??? | (?) Sudosammy (dns-check) | [misc-0](https://github.com/WACTF-org/sudosammy-challenges/tree/master/dns-check)| [misc-0](https://github.com/WACTF-org/sudosammy-challenges/issues/1)|
+|Misc - 0 | $$$ | Sudosammy (dns-check / shellbox) | [misc-0](https://github.com/WACTF-org/sudosammy-challenges/tree/master/)| [misc-0](https://github.com/WACTF-org/sudosammy-challenges/issues/1)|
 |Misc - 1 | X | sysophost | [misc-1](https://github.com/WACTF-org/sysophost-challenges/tree/master/misc-1) | [misc-1](https://github.com/WACTF-org/sysophost-challenges/issues/1) |
 |Misc - 2 | X | Dr Perpper Pig (CISSP) | [misc-2](https://github.com/WACTF-org/kronicd-challenges/tree/master/misc-2) | [misc-2](https://github.com/WACTF-org/kronicd-challenges/issues/1)|
