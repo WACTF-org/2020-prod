@@ -2,6 +2,8 @@ version: '3'
 
 services:
 
+  # WEB chals
+
   web-5:
     container_name: web-5
     build: ./web-5
@@ -16,5 +18,23 @@ services:
         reservations:
           cpus: '0.05'
           memory: 20M
+    cap_drop:
+      - NET_RAW
+
+  # Crypto chals
+  crypto-4:
+    container_name: crypto-4
+    build: ./crypto-4/
+    image: registry.capture.tf:5000/wactf0x04/crypto-4
+    ports:
+      - 80:8000
+    deploy:
+      resources:
+        limits:
+          cpus: '0.15'
+          memory: 30M
+        reservations:
+          cpus: '0.05'
+          memory: 10M
     cap_drop:
       - NET_RAW

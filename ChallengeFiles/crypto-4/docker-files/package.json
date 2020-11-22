@@ -1,0 +1,13 @@
+{
+  "name": "s3cur3-r3pl",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mustache-express": "^1.3.0"
+  }
+}

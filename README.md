@@ -29,7 +29,7 @@ Since we are (mis)using git, you may run into problems when commiting etc. Reali
 |Crypto - 1 |  | Cam I guess |
 |Crypto - 2 | X | Cam | [crypto-2](https://github.com/WACTF-org/c-sto-challenges/tree/master/crypto-2) | [crypto-2](https://github.com/WACTF-org/c-sto-challenges/issues/2) |
 |Crypto - 3 |  | Dono |
-|Crypto - 4 | X | Dylan | [crypto-4](https://github.com/WACTF-org/dpindur-challenges/tree/master/crypto-4) | [crypto-4](https://github.com/WACTF-org/dpindur-challenges/issues/2)
+|Crypto - 4 | R | Dylan | [crypto-4](https://github.com/WACTF-org/dpindur-challenges/tree/master/crypto-4) | [crypto-4](https://github.com/WACTF-org/dpindur-challenges/issues/2)
 |Crypto - 5 | X | Dylan | [crypto-5](https://github.com/WACTF-org/dpindur-challenges/tree/master/crypto-5) | [crypto-5](https://github.com/WACTF-org/dpindur-challenges/issues/3)
 |Forensics - 0 | X | Russ | [forensics-0](https://github.com/WACTF-org/rustla-challenges/blob/master/forensics-0.md) | [forensics-0](https://github.com/WACTF-org/rustla-challenges/issues/1)
 |Forensics - 1 | X |  Dr Pepper Pig (CISSP) | [forensics-1](https://github.com/WACTF-org/kronicd-challenges/tree/master/df-1) | [forensics-1](https://github.com/WACTF-org/kronicd-challenges/issues/2)
