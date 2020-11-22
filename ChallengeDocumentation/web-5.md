@@ -12,13 +12,13 @@
 |Challenge Description | Check out this crackin HTML5 web site. Our GRC team told us that they run a highly sensitive flag service on this server... http://web-5 |
 |Challenge Hint 1 | Check all the params |
 |Challenge Hint 2 | No file for you. Check the top ones. |
-|Docker Usage Idle | 3% CPU / 10MB RAM |
-|Docker usage Expected Peak | 8% CPU / 30MB RAM |
 
 | Admin Facing | <> |
 |--- | --- |
 |Challenge Flag| WACTF{59d7dd1cfd283ead53a8c9e28719903a} |
 |Challenge Vuln| XSS in PDF generation which leads to SSRF, which can be used to enumerate local ports and retrieve the flag |
+|Docker Usage Idle | 3% CPU / 10MB RAM |
+|Docker usage Expected Peak | 8% CPU / 30MB RAM |
 ---
 
 Challenge PoC
