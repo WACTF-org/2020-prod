@@ -6,7 +6,7 @@ services:
   web-5:
     container_name: web-5
     build: ./web-5
-    image: registry.capture.tf:5000/wactf0x04/web-5
+    image: registry.capture.tf/wactf0x04/web-5
     ports:
       - 80:8080
     deploy:
@@ -24,7 +24,7 @@ services:
   crypto-4:
     container_name: crypto-4
     build: ./crypto-4
-    image: registry.capture.tf:5000/wactf0x04/crypto-4
+    image: registry.capture.tf/wactf0x04/crypto-4
     ports:
       - 80:8000
     deploy:
@@ -42,7 +42,7 @@ services:
   exploit-2:
     container_name: exploit-2
     build: ./exploit-2/
-    image: registry.capture.tf:5000/wactf0x04/exploit-2
+    image: registry.capture.tf/wactf0x04/exploit-2
     ports:
       - 31337:31337
       - 1337:1337
@@ -60,6 +60,7 @@ services:
   exploit-4:
     container_name: exploit-4
     build: ./exploit-4
+    image: registry.capture.tf/wactf0x04/exploit-4
     ports:
       - "80:8000"
       - "81:8001/udp"
