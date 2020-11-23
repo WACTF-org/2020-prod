@@ -13,12 +13,13 @@ Since we are (mis)using git, you may run into problems when commiting etc. Reali
 
 |Challenge | Complete | Individual Responsible (challenge description) | Link to Repo | Link to QA Issue |
 |---|---|---|---|---|
-|Web - 0 |  | Deem |
-|Web - 1 | X | Lincoln, Laura | [web-1](https://github.com/WACTF-org/legendoflynkle-challenges/tree/master/web-1) (possible dupe [web-1](https://github.com/WACTF-org/ld-preload-challenges/tree/master/web-1-dependencycheck-filedrop) possible another dupe [web-1](https://github.com/WACTF-org/sysophost-challenges/tree/master/web-1)) |
+|Web - 0 | X | Deem | [web-0](https://github.com/WACTF-org/sysophost-challenges/tree/master/web-0) | [web-0](https://github.com/WACTF-org/sysophost-challenges/issues/2) |
+|Web - 1 | X | Laura | [web-1](https://github.com/WACTF-org/ld-preload-challenges/tree/master/web-1-dependencycheck-filedrop) | |
+|Web - 1 - 2 | X | Lincoln | [web-1-2](https://github.com/WACTF-org/legendoflynkle-challenges/tree/master/web-1) | [web-1-2](https://github.com/WACTF-org/legendoflynkle-challenges/issues/2) |
 |Web - 2 | X | Laura | [web-2](https://github.com/WACTF-org/ld-preload-challenges/tree/master/web-2-hardcodedsecrets)  | |
 |Web - 2 - 2 | R | Dr Clinton Carpington (CEH) | [web-2-2](https://github.com/WACTF-org/swarley7-challfenges) | [web-2-2](https://github.com/WACTF-org/swarley7-challenges/issues/1) |
-|Web - 3 |  | Sajeeb |
-|Web - 4 |  | Lincoln |
+|Web - 3 | X | Sajeeb | [web-3](https://github.com/WACTF-org/xyantix-challenges/tree/master/web-3)| [web-3](https://github.com/WACTF-org/xyantix-challenges/issues/2)|
+|Web - 4 | X | Lincoln | [web-4](https://github.com/WACTF-org/legendoflynkle-challenges/tree/master/web-4) | [web-4](https://github.com/WACTF-org/legendoflynkle-challenges/issues/1) | 
 |Web - 5 | $$$ | Dono | [web-5](https://github.com/WACTF-org/dzflack-challenges/tree/master/web-5) | [web-5](https://github.com/WACTF-org/dzflack-challenges/issues/1)|
 |Exploit -  | $$$ | Luke | [exploit-0](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-0) | [exploit-0](https://github.com/WACTF-org/lukehealy-challenges/issues/1) |
 |Exploit - 1 | X | Chris | [exploit-1](https://github.com/WACTF-org/0xdecode-challenges/tree/master/exploit-1)| [exploit-1](https://github.com/WACTF-org/0xdecode-challenges/issues/1)|
@@ -37,7 +38,7 @@ Since we are (mis)using git, you may run into problems when commiting etc. Reali
 |Forensics - 2 | $$$ |  Jack N | [forensics-2](https://github.com/WACTF-org/jib1337-challenges/tree/master/forensics-2) | [forensics-2](https://github.com/WACTF-org/jib1337-challenges/issues/2)
 |Forensics - 3 | X | CJ, Chris | [forensics-3](https://github.com/WACTF-org/xyantix-challenges/blob/master/forensics-3.md) (! possible dupe) | |
 |Forensics - 4 | X | CJ (jack???) | [forensics-4](https://github.com/WACTF-org/jib1337-challenges/tree/master/forensics-4) | [forensics-4](https://github.com/WACTF-org/jib1337-challenges/issues/1) |
-|Forensics - 5 |  | Jack N |
+|Forensics - 5 |  | Jack N | Currently 4|
 |Misc - 0 | $$$ | Sudosammy (dns-check / shellbox) | [misc-0](https://github.com/WACTF-org/sudosammy-challenges/tree/master/)| [misc-0](https://github.com/WACTF-org/sudosammy-challenges/issues/1)|
 |Misc - 1 | X | sysophost | [misc-1](https://github.com/WACTF-org/sysophost-challenges/tree/master/misc-1) | [misc-1](https://github.com/WACTF-org/sysophost-challenges/issues/1) |
 |Misc - 2 | X | Dr Perpper Pig (CISSP) | [misc-2](https://github.com/WACTF-org/kronicd-challenges/tree/master/misc-2) | [misc-2](https://github.com/WACTF-org/kronicd-challenges/issues/1)|
