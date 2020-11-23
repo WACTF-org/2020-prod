@@ -54,6 +54,23 @@ services:
           memory: 10M
     cap_drop:
       - NET_RAW
+  
+  crypto-5:
+    container_name: crypto-5
+    build: ./crypto-5s
+    image: registry.capture.tf/wactf0x04/crypto-5
+    ports:
+      - 80:5000
+    deploy:
+      resources:
+        limits:
+          cpus: '0.30'
+          memory: 60M
+        reservations:
+          cpus: '0.05'
+          memory: 30M
+    cap_drop:
+      - NET_RAW
 
   # Exploit chals
   exploit-2:
