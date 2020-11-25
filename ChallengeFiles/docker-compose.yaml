@@ -57,7 +57,7 @@ services:
   
   crypto-5:
     container_name: crypto-5
-    build: ./crypto-5s
+    build: ./crypto-5
     image: registry.capture.tf/wactf0x04/crypto-5
     ports:
       - 80:5000
