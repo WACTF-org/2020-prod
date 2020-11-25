@@ -26,7 +26,7 @@ Since we are (mis)using git, you may run into problems when commiting etc. Reali
 |Exploit - 2 | R | Cam | [exploit-2](https://github.com/WACTF-org/c-sto-challenges/tree/master/crypto-2) | [exploit-2](https://github.com/WACTF-org/c-sto-challenges/issues/1) |
 |Exploit - 3 | X | Jorel | [exploit-3](https://github.com/WACTF-org/jorelpaddick-challenges/tree/master/exp-3) | [exploit-3](https://github.com/WACTF-org/jorelpaddick-challenges/issues/1)|
 |Exploit - 4 | R | Luke | [exploit-4](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-4) | [exploit-4](https://github.com/WACTF-org/lukehealy-challenges/issues/2)
-|Exploit - 5 | X | Luke | [exploit-5](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-5) | [exploit-5](https://github.com/WACTF-org/lukehealy-challenges/issues/3) |
+|Exploit - 5 | R | Luke | [exploit-5](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-5) | [exploit-5](https://github.com/WACTF-org/lukehealy-challenges/issues/3) |
 |Crypto - 0 |  | Cam |
 |Crypto - 1 |  | Cam I guess |
 |Crypto - 2 | $$$ | Cam | [crypto-2](https://github.com/WACTF-org/c-sto-challenges/tree/master/crypto-2) | [crypto-2](https://github.com/WACTF-org/c-sto-challenges/issues/2) |

@@ -109,6 +109,23 @@ services:
     cap_drop:
       - NET_RAW
 
+  exploit-5:
+    container_name: exploit-5
+    build: ./exploit-5
+    image: registry.capture.tf/wactf0x04/exploit-5
+    ports:
+      - "1300:1300"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.05'
+          memory: 20M
+        reservations:
+          cpus: '0.05'
+          memory: 10M
+    cap_drop:
+      - NET_RAW
+
   # Shellbox
   shellbox: # naming here is important
     restart: always
