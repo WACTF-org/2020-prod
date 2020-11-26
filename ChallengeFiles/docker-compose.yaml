@@ -110,6 +110,7 @@ services:
       - NET_RAW
 
   exploit-5:
+    restart: on-failure
     container_name: exploit-5
     build: ./exploit-5
     image: registry.capture.tf/wactf0x04/exploit-5
@@ -128,7 +129,7 @@ services:
 
   # Shellbox
   shellbox: # naming here is important
-    restart: always
+    restart: on-failure
     build: ./shellbox
     container_name: shellbox
     hostname: shellbox
