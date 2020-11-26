@@ -36,9 +36,9 @@ Since we are (mis)using git, you may run into problems when commiting etc. Reali
 |Forensics - 0 | $$$ | Russ | [forensics-0](https://github.com/WACTF-org/rustla-challenges/blob/master/forensics-0.md) | [forensics-0](https://github.com/WACTF-org/rustla-challenges/issues/1)
 |Forensics - 1 | X |  Dr Pepper Pig (CISSP) | [forensics-1](https://github.com/WACTF-org/kronicd-challenges/tree/master/df-1) | [forensics-1](https://github.com/WACTF-org/kronicd-challenges/issues/2)
 |Forensics - 2 | $$$ |  Jack N | [forensics-2](https://github.com/WACTF-org/jib1337-challenges/tree/master/forensics-2) | [forensics-2](https://github.com/WACTF-org/jib1337-challenges/issues/2)
-|Forensics - 3 | X | CJ, Chris | [forensics-3](https://github.com/WACTF-org/xyantix-challenges/blob/master/forensics-3.md) (! possible dupe) | |
-|Forensics - 4 | X | CJ (jack???) | [forensics-4](https://github.com/WACTF-org/jib1337-challenges/tree/master/forensics-4) | [forensics-4](https://github.com/WACTF-org/jib1337-challenges/issues/1) |
-|Forensics - 5 | X | Jack N | Currently 4 (need to deduplicate) |
+|Forensics - 3 | X | CJ | [forensics-3](https://github.com/WACTF-org/xyantix-challenges/blob/master/forensics-3.md) | |
+|Forensics - 4 | X | Chris | [forensics-4](https://github.com/WACTF-org/0xdecode-challenges/tree/master/forensics-3) | [forensics-4](https://github.com/WACTF-org/0xdecode-challenges/issues/2) |
+|Forensics - 5 | X | Jack N | [forensics-5](https://github.com/WACTF-org/jib1337-challenges/tree/master/forensics-4) | [forensics-5](https://github.com/WACTF-org/jib1337-challenges/issues/1)|
 |Misc - 0 | $$$ | Sudosammy (dns-check / shellbox) | [misc-0](https://github.com/WACTF-org/sudosammy-challenges/tree/master/)| [misc-0](https://github.com/WACTF-org/sudosammy-challenges/issues/1)|
 |Misc - 1 | X | sysophost | [misc-1](https://github.com/WACTF-org/sysophost-challenges/tree/master/misc-1) | [misc-1](https://github.com/WACTF-org/sysophost-challenges/issues/1) |
 |Misc - 2 | X | Dr Perpper Pig (CISSP) | [misc-2](https://github.com/WACTF-org/kronicd-challenges/tree/master/misc-2) | [misc-2](https://github.com/WACTF-org/kronicd-challenges/issues/1)|
