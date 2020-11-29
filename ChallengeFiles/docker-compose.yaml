@@ -107,7 +107,24 @@ services:
           memory: 10M
     cap_drop:
       - NET_RAW
-      
+  
+  exploit-3:
+    container_name: exploit-3
+    build: ./exploit-3
+    image: registry.capture.tf/wactf0x04/exploit-3
+    ports:
+      - 80:80
+    deploy:
+      resources:
+        limits:
+          cpus: '0.10'
+          memory: 50M
+        reservations:
+          cpus: '0.03'
+          memory: 5M
+    cap_drop:
+      - NET_RAW
+
   exploit-4:
     container_name: exploit-4
     build: ./exploit-4
