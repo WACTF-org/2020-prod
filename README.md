@@ -13,7 +13,7 @@ Since we are (mis)using git, you may run into problems when commiting etc. Reali
 
 |Challenge | Complete | Individual Responsible (challenge description) | Link to Repo | Link to QA Issue |
 |---|---|---|---|---|
-|Web - 0 | X | Deem | [web-0](https://github.com/WACTF-org/sysophost-challenges/tree/master/web-0) | [web-0](https://github.com/WACTF-org/sysophost-challenges/issues/2) |
+|Web - 0 | R | Deem | [web-0](https://github.com/WACTF-org/sysophost-challenges/tree/master/web-0) | [web-0](https://github.com/WACTF-org/sysophost-challenges/issues/2) |
 |Web - 1 | X | Laura | [web-1](https://github.com/WACTF-org/ld-preload-challenges/tree/master/web-1-dependencycheck-filedrop) | |
 |Web - 1 - 2 | X | Lincoln | [web-1-2](https://github.com/WACTF-org/legendoflynkle-challenges/tree/master/web-1) | [web-1-2](https://github.com/WACTF-org/legendoflynkle-challenges/issues/2) |
 |Web - 2 | X | Laura | [web-2](https://github.com/WACTF-org/ld-preload-challenges/tree/master/web-2-hardcodedsecrets)  | |
