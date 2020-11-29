@@ -3,6 +3,23 @@ version: '3'
 services:
 
   # Web chals
+  web-0:
+    container_name: web-0
+    build: ./web-0
+    image: registry.capture.tf/wactf0x04/web-0
+    ports:
+      - 80:80
+    deploy:
+      resources:
+        limits:
+          cpus: '0.10'
+          memory: 25M
+        reservations:
+          cpus: '0.05'
+          memory: 15M
+    cap_drop:
+      - NET_RAW
+
   web-2-2:
     container_name: web-2-2
     build: ./web-2-2
