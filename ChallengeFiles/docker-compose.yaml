@@ -20,6 +20,23 @@ services:
     cap_drop:
       - NET_RAW
 
+  web-2:
+    container_name: web-2
+    image: registry.capture.tf/wactf0x04/web-2
+    build: ./web-2
+    ports:
+      - "3000:3000"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.08'
+          memory: 50M
+        reservations:
+          cpus: '0.03'
+          memory: 10M
+    cap_drop:
+      - NET_RAW
+
   web-2-2:
     container_name: web-2-2
     build: ./web-2-2

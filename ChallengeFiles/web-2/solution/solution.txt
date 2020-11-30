@@ -1,0 +1,5 @@
+curl --request GET \
+  --url http://127.0.0.1:3000/flag \
+  --header 'accept: application/json' \
+  --header 'authorization: Basic U3VwZXJTZWN1cmVQYXNzd29yZGZvcnVzZXJhZG1pbg==' \
+  --header 'content-type: application/x-www-form-urlencoded'
