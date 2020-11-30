@@ -159,7 +159,14 @@ services:
           cpus: '0.05'
           memory: 10M
     cap_drop:
-      - NET_RAW
+      - ALL
+    cap_add:
+    # needed for sudo
+      - SETGID 
+      - SETUID
+      - CAP_AUDIT_WRITE
+    # needed for chroot
+      - SYS_CHROOT
 
   # Shellbox
   shellbox: # naming here is important
