@@ -9,9 +9,9 @@
 | Player facing | <> |
 |--- | --- |
 |Challenge Name | Network Capture |
-|Challenge Description | A machine on our network got infected with some kind of malware. Here's a packet capture, can you figure out what's going on? |
-|Challenge Hint 1 | What's in a name? |
-|Challenge Hint 2 | Look for odd subdomains |
+|Challenge Description | A machine on our network got infected with some kind of malware. The sample we captured showed that it probably uses DNS as an exfil  channel, and there is a bunch of requests that don't resolve. |
+|Challenge Hint 1 | filtering for no such name might be a good idea |
+|Challenge Hint 2 | (Don't forget, DNS is case insensitive, so the encoding has to be case insensitive too) |
 
 | Admin Facing | <> |
 |--- | --- |
