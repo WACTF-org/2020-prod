@@ -22,13 +22,13 @@ Since we are (mis)using git, you may run into problems when commiting etc. Reali
 |Web - 4 | R | Lincoln | [web-4](https://github.com/WACTF-org/legendoflynkle-challenges/tree/master/web-4) | [web-4](https://github.com/WACTF-org/legendoflynkle-challenges/issues/1) | 
 |Web - 5 | $$$ | Dono | [web-5](https://github.com/WACTF-org/dzflack-challenges/tree/master/web-5) | [web-5](https://github.com/WACTF-org/dzflack-challenges/issues/1)|
 |Exploit -  | $$$ | Luke | [exploit-0](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-0) | [exploit-0](https://github.com/WACTF-org/lukehealy-challenges/issues/1) |
-|Exploit - 1 | R | Chris | [exploit-1](https://github.com/WACTF-org/0xdecode-challenges/tree/master/exploit-1)| [exploit-1](https://github.com/WACTF-org/0xdecode-challenges/issues/1)|
+|Exploit - 1 | $$$ | Chris | [exploit-1](https://github.com/WACTF-org/0xdecode-challenges/tree/master/exploit-1)| [exploit-1](https://github.com/WACTF-org/0xdecode-challenges/issues/1)|
 |Exploit - 2 | R | Cam | [exploit-2](https://github.com/WACTF-org/c-sto-challenges/tree/master/crypto-2) | [exploit-2](https://github.com/WACTF-org/c-sto-challenges/issues/1) |
 |Exploit - 3 | R | Jorel | [exploit-3](https://github.com/WACTF-org/jorelpaddick-challenges/tree/master/exp-3) | [exploit-3](https://github.com/WACTF-org/jorelpaddick-challenges/issues/1)|
 |Exploit - 4 | R | Luke | [exploit-4](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-4) | [exploit-4](https://github.com/WACTF-org/lukehealy-challenges/issues/2)
 |Exploit - 5 | R | Luke | [exploit-5](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-5) | [exploit-5](https://github.com/WACTF-org/lukehealy-challenges/issues/3) |
-|Crypto - 0 |  | Cam |
-|Crypto - 1 |  | Cam I guess |
+|Crypto - 0 | X | Cam | 
+|Crypto - 1 | X | Cam |
 |Crypto - 2 | $$$ | Cam | [crypto-2](https://github.com/WACTF-org/c-sto-challenges/tree/master/crypto-2) | [crypto-2](https://github.com/WACTF-org/c-sto-challenges/issues/2) |
 |Crypto - 3 |  | Dono |
 |Crypto - 4 | R | Dylan | [crypto-4](https://github.com/WACTF-org/dpindur-challenges/tree/master/crypto-4) | [crypto-4](https://github.com/WACTF-org/dpindur-challenges/issues/2)
@@ -41,4 +41,4 @@ Since we are (mis)using git, you may run into problems when commiting etc. Reali
 |Forensics - 5 | X | Jack N | [forensics-5](https://github.com/WACTF-org/jib1337-challenges/tree/master/forensics-4) | [forensics-5](https://github.com/WACTF-org/jib1337-challenges/issues/1)|
 |Misc - 0 | $$$ | Sudosammy (dns-check / shellbox) | [misc-0](https://github.com/WACTF-org/sudosammy-challenges/tree/master/)| [misc-0](https://github.com/WACTF-org/sudosammy-challenges/issues/1)|
 |Misc - 1 | $$$ | sysophost | [misc-1](https://github.com/WACTF-org/sysophost-challenges/tree/master/misc-1) | [misc-1](https://github.com/WACTF-org/sysophost-challenges/issues/1) |
-|Misc - 4 | X | Dr Perpper Pig (CISSP) | [misc-2](https://github.com/WACTF-org/kronicd-challenges/tree/master/misc-2) | [misc-2](https://github.com/WACTF-org/kronicd-challenges/issues/1)|
+|Misc - 4 | $$$ | Dr Perpper Pig (CISSP) | [misc-2](https://github.com/WACTF-org/kronicd-challenges/tree/master/misc-2) | [misc-2](https://github.com/WACTF-org/kronicd-challenges/issues/1)|
