@@ -10,7 +10,7 @@ COPY ./docker-files/ .
 
 RUN npm install
 
-RUN chown -R myuser:mygroup /usr/src/app/log
+RUN mkdir -p /usr/src/app/log &&  chown -R myuser:mygroup /usr/src/app/log
 
 EXPOSE 3000
 
