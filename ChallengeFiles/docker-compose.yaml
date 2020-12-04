@@ -253,3 +253,20 @@ services:
         reservations:
           cpus: '0.05'
           memory: 25M # 0: 16.82MiB / 1: 18.58MiB / 4: 23.04MiB
+
+  # DNS-check
+  dns-check:
+    container_name: dns-check
+    image: registry.capture.tf/wactf0x04/dns-check
+    ports:
+      - 80:8000
+    deploy:
+      resources:
+        limits:
+          cpus: '0.02'
+          memory: 20M
+        reservations:
+          cpus: '0.01'
+          memory: 10M
+    cap_drop:
+      - NET_RAW
