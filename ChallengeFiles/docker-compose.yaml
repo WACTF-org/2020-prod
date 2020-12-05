@@ -215,7 +215,7 @@ services:
     # needed for sudo
       - SETGID 
       - SETUID
-      - CAP_AUDIT_WRITE
+      - AUDIT_WRITE
     # needed for chroot
       - SYS_CHROOT
 
