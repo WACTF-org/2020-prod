@@ -9,9 +9,9 @@
 | Player facing | <> |
 |--- | --- |
 |Challenge Name | Git good |
-|Challenge Description | You really have to be good to git this flag. Note: A small amount of directory bruteforcing is required for this challenge. http://web-0 |
-|Challenge Hint 1 | Common wordlists will find the thing |
-|Challenge Hint 2 | You better git dumping that thing you found |
+|Challenge Description | You really have to be good to git this flag. Note: A small amount of directory bruteforcing is required for this challenge (ffuf is your friend). http://web-0 |
+|Challenge Hint 1 | Common wordlists will find the thing [this might be useful](https://raw.githubusercontent.com/danielmiessler/SecLists/master/Discovery/Web-Content/common.txt) |
+|Challenge Hint 2 | You better git dumping that thing you found [this might be useful](https://github.com/arthaud/git-dumper)|
 
 | Admin Facing | <> |
 |--- | --- |
