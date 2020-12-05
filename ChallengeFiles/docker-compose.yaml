@@ -168,10 +168,10 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.10'
+          cpus: '0.15'
           memory: 50M
         reservations:
-          cpus: '0.03'
+          cpus: '0.05'
           memory: 5M
     cap_drop:
       - NET_RAW
