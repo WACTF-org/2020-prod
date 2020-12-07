@@ -46,11 +46,11 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.08'
-          memory: 50M
+          cpus: '0.20'
+          memory: 100M
         reservations:
-          cpus: '0.03'
-          memory: 10M
+          cpus: '0.05'
+          memory: 20M
     cap_drop:
       - NET_RAW
 
@@ -133,7 +133,7 @@ services:
       resources:
         limits:
           cpus: '0.20'
-          memory: 50M
+          memory: 80M
         reservations:
           cpus: '0.10'
           memory: 20M
@@ -150,7 +150,7 @@ services:
       resources:
         limits:
           cpus: '0.30'
-          memory: 120M
+          memory: 1850M
         reservations:
           cpus: '0.10'
           memory: 50M
