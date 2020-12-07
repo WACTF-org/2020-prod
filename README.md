@@ -18,7 +18,7 @@ Since we are (mis)using git, you may run into problems when commiting etc. Reali
 |Web - 1 - 2 | R | Lincoln | [web-1-2](https://github.com/WACTF-org/legendoflynkle-challenges/tree/master/web-1) | [web-1-2](https://github.com/WACTF-org/legendoflynkle-challenges/issues/2) |
 |Web - 2 | R | Laura | [web-2](https://github.com/WACTF-org/ld-preload-challenges/tree/master/web-2-hardcodedsecrets)  | |
 |Web - 2 - 2 | R | Dr Clinton Carpington (CEH) | [web-2-2](https://github.com/WACTF-org/swarley7-challfenges) | [web-2-2](https://github.com/WACTF-org/swarley7-challenges/issues/1) |
-|Web - 3 | X | Sajeeb | [web-3](https://github.com/WACTF-org/xyantix-challenges/tree/master/web-3)| [web-3](https://github.com/WACTF-org/xyantix-challenges/issues/2)|
+|Web - 3 | R | Sajeeb | [web-3](https://github.com/WACTF-org/xyantix-challenges/tree/master/web-3)| [web-3](https://github.com/WACTF-org/xyantix-challenges/issues/2)|
 |Web - 4 | R | Lincoln | [web-4](https://github.com/WACTF-org/legendoflynkle-challenges/tree/master/web-4) | [web-4](https://github.com/WACTF-org/legendoflynkle-challenges/issues/1) | 
 |Web - 5 | $$$ | Dono | [web-5](https://github.com/WACTF-org/dzflack-challenges/tree/master/web-5) | [web-5](https://github.com/WACTF-org/dzflack-challenges/issues/1)|
 |Exploit -  | $$$ | Luke | [exploit-0](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-0) | [exploit-0](https://github.com/WACTF-org/lukehealy-challenges/issues/1) |

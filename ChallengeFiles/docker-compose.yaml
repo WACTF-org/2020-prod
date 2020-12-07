@@ -71,6 +71,23 @@ services:
     cap_drop:
       - NET_RAW
 
+  web-3:
+    container_name: web-3
+    build: ./web-3
+    image: registry.capture.tf/wactf0x04/web-3
+    ports:
+      - 80:80
+    deploy:
+      resources:
+        limits:
+          cpus: '0.20'
+          memory: 60M
+        reservations:
+          cpus: '0.05'
+          memory: 15M
+    cap_drop:
+      - NET_RAW
+      
   web-4:
     container_name: web-4
     build: ./web-4
