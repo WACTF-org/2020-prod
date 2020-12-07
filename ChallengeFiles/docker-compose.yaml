@@ -133,10 +133,10 @@ services:
       resources:
         limits:
           cpus: '0.30'
-          memory: 60M
+          memory: 120M
         reservations:
           cpus: '0.10'
-          memory: 30M
+          memory: 50M
     cap_drop:
       - NET_RAW
 
