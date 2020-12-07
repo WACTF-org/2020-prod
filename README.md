@@ -25,7 +25,7 @@ Since we are (mis)using git, you may run into problems when commiting etc. Reali
 |Exploit - 1 | $$$ | Chris | [exploit-1](https://github.com/WACTF-org/0xdecode-challenges/tree/master/exploit-1)| [exploit-1](https://github.com/WACTF-org/0xdecode-challenges/issues/1)|
 |Exploit - 2 | R | Cam | [exploit-2](https://github.com/WACTF-org/c-sto-challenges/tree/master/crypto-2) | [exploit-2](https://github.com/WACTF-org/c-sto-challenges/issues/1) |
 |Exploit - 3 | R | Jorel | [exploit-3](https://github.com/WACTF-org/jorelpaddick-challenges/tree/master/exp-3) | [exploit-3](https://github.com/WACTF-org/jorelpaddick-challenges/issues/1)|
-|Exploit - 4 | R | Luke | [exploit-4](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-4) | [exploit-4](https://github.com/WACTF-org/lukehealy-challenges/issues/2)
+|Exploit - 4 | $$$ | Luke | [exploit-4](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-4) | [exploit-4](https://github.com/WACTF-org/lukehealy-challenges/issues/2)
 |Exploit - 5 | R | Luke | [exploit-5](https://github.com/WACTF-org/lukehealy-challenges/tree/master/exp-5) | [exploit-5](https://github.com/WACTF-org/lukehealy-challenges/issues/3) |
 |Crypto - 0 | $$$ | Cam |
 |Crypto - 1 | $$$ | Cam |
