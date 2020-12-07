@@ -5,7 +5,7 @@ FROM alpine:latest
 RUN apk add --no-cache
 
 # things players can have
-RUN apk add openssh supervisor \
+RUN apk add openssh supervisor socat \
 			bash curl wget netcat-openbsd vim nano tmux iputils
 
 # create a new user and group
