@@ -185,11 +185,11 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.15'
-          memory: 50M
+          cpus: '0.20'
+          memory: 80M
         reservations:
-          cpus: '0.05'
-          memory: 5M
+          cpus: '0.10'
+          memory: 20M
     cap_drop:
       - NET_RAW
 
