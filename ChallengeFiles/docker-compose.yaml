@@ -30,10 +30,10 @@ services:
       resources:
         limits:
           cpus: '0.15'
-          memory: 50M
+          memory: 100M
         reservations:
           cpus: '0.05'
-          memory: 20M
+          memory: 75M
     cap_drop:
       - NET_RAW
 
@@ -47,10 +47,10 @@ services:
       resources:
         limits:
           cpus: '0.20'
-          memory: 80M
+          memory: 100M
         reservations:
           cpus: '0.05'
-          memory: 30M
+          memory: 75M
     cap_drop:
       - NET_RAW
 
@@ -81,10 +81,10 @@ services:
       resources:
         limits:
           cpus: '0.20'
-          memory: 60M
+          memory: 100M
         reservations:
           cpus: '0.05'
-          memory: 20M
+          memory: 60M
     cap_drop:
       - NET_RAW
       
@@ -98,10 +98,10 @@ services:
       resources:
         limits:
           cpus: '0.15'
-          memory: 50M
+          memory: 100M
         reservations:
           cpus: '0.05'
-          memory: 30M
+          memory: 70M
     cap_drop:
       - NET_RAW
       
@@ -136,7 +136,7 @@ services:
           memory: 80M
         reservations:
           cpus: '0.10'
-          memory: 30M
+          memory: 50M
     cap_drop:
       - NET_RAW
   
@@ -153,7 +153,7 @@ services:
           memory: 180M
         reservations:
           cpus: '0.10'
-          memory: 70M
+          memory: 100M
     cap_drop:
       - NET_RAW
 
