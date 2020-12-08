@@ -186,10 +186,10 @@ services:
       resources:
         limits:
           cpus: '0.20'
-          memory: 80M
+          memory: 180M
         reservations:
           cpus: '0.10'
-          memory: 40M
+          memory: 50M
     cap_drop:
       - NET_RAW
 
