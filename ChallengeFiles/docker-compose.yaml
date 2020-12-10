@@ -13,10 +13,10 @@ services:
       resources:
         limits:
           cpus: '0.15'
-          memory: 50M
+          memory: 150M
         reservations:
           cpus: '0.05'
-          memory: 15M
+          memory: 80M
     cap_drop:
       - NET_RAW
 
@@ -30,10 +30,10 @@ services:
       resources:
         limits:
           cpus: '0.15'
-          memory: 50MB
+          memory: 150M
         reservations:
           cpus: '0.05'
-          memory: 15M
+          memory: 100M
     cap_drop:
       - NET_RAW
 
@@ -46,11 +46,11 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.08'
-          memory: 50M
+          cpus: '0.20'
+          memory: 150M
         reservations:
-          cpus: '0.03'
-          memory: 10M
+          cpus: '0.05'
+          memory: 100M
     cap_drop:
       - NET_RAW
 
@@ -64,13 +64,30 @@ services:
       resources:
         limits:
           cpus: '0.30'
-          memory: 50M
+          memory: 150M
         reservations:
           cpus: '0.05'
-          memory: 10M
+          memory: 20M
     cap_drop:
       - NET_RAW
 
+  web-3:
+    container_name: web-3
+    build: ./web-3
+    image: registry.capture.tf/wactf0x04/web-3
+    ports:
+      - 80:80
+    deploy:
+      resources:
+        limits:
+          cpus: '0.20'
+          memory: 150M
+        reservations:
+          cpus: '0.05'
+          memory: 80M
+    cap_drop:
+      - NET_RAW
+      
   web-4:
     container_name: web-4
     build: ./web-4
@@ -81,10 +98,10 @@ services:
       resources:
         limits:
           cpus: '0.15'
-          memory: 50M
+          memory: 150M
         reservations:
           cpus: '0.05'
-          memory: 15M
+          memory: 100M
     cap_drop:
       - NET_RAW
       
@@ -98,10 +115,10 @@ services:
       resources:
         limits:
           cpus: '0.10'
-          memory: 80M
+          memory: 150M
         reservations:
           cpus: '0.05'
-          memory: 20M
+          memory: 30M
     cap_drop:
       - NET_RAW
 
@@ -116,10 +133,10 @@ services:
       resources:
         limits:
           cpus: '0.20'
-          memory: 50M
+          memory: 100M
         reservations:
           cpus: '0.10'
-          memory: 20M
+          memory: 80M
     cap_drop:
       - NET_RAW
   
@@ -133,10 +150,10 @@ services:
       resources:
         limits:
           cpus: '0.30'
-          memory: 120M
+          memory: 200M
         reservations:
           cpus: '0.10'
-          memory: 50M
+          memory: 100M
     cap_drop:
       - NET_RAW
 
@@ -151,11 +168,11 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.10'
-          memory: 20M
+          cpus: '0.15'
+          memory: 150M
         reservations:
-          cpus: '0.02'
-          memory: 10M
+          cpus: '0.05'
+          memory: 40M
     cap_drop:
       - NET_RAW
   
@@ -168,11 +185,11 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.15'
-          memory: 50M
+          cpus: '0.20'
+          memory: 200M
         reservations:
-          cpus: '0.05'
-          memory: 5M
+          cpus: '0.10'
+          memory: 80M
     cap_drop:
       - NET_RAW
 
@@ -187,15 +204,14 @@ services:
       resources:
         limits:
           cpus: '0.10'
-          memory: 50M
+          memory: 100M
         reservations:
           cpus: '0.05'
-          memory: 10M
+          memory: 40M
     cap_drop:
       - NET_RAW
 
   exploit-5:
-    restart: on-failure
     container_name: exploit-5
     build: ./exploit-5
     image: registry.capture.tf/wactf0x04/exploit-5
@@ -205,10 +221,10 @@ services:
       resources:
         limits:
           cpus: '0.05'
-          memory: 20M
+          memory: 30M
         reservations:
           cpus: '0.05'
-          memory: 10M
+          memory: 20M
     cap_drop:
       - ALL
     cap_add:
@@ -221,7 +237,6 @@ services:
 
   # Shellbox
   shellbox: # naming here is important
-    restart: on-failure
     build: ./shellbox
     container_name: shellbox
     hostname: shellbox
@@ -249,10 +264,10 @@ services:
       resources:
         limits:
           cpus: '0.05'
-          memory: 50M
+          memory: 60M
         reservations:
           cpus: '0.05'
-          memory: 25M # 0: 16.82MiB / 1: 18.58MiB / 4: 23.04MiB
+          memory: 50M # 0: 16.82MiB / 1: 18.58MiB / 4: 23.04MiB
 
   # DNS-check
   dns-check:
@@ -263,10 +278,10 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.02'
-          memory: 20M
+          cpus: '0.05'
+          memory: 50M
         reservations:
-          cpus: '0.01'
-          memory: 10M
+          cpus: '0.05'
+          memory: 20M
     cap_drop:
       - NET_RAW

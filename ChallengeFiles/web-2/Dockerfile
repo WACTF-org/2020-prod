@@ -14,6 +14,6 @@ RUN mkdir -p /usr/src/app/log &&  chown -R myuser:mygroup /usr/src/app/log
 
 EXPOSE 3000
 
-CMD ["npm", "run", "start", "&"]
+CMD ["npm", "run", "start"]
 
 USER myuser
