@@ -1,0 +1,287 @@
+version: '3'
+
+services:
+
+  # Web chals
+  web-0:
+    container_name: web-0
+    build: ./web-0
+    image: registry.capture.tf/wactf0x04/web-0
+    ports:
+      - 80:80
+    deploy:
+      resources:
+        limits:
+          cpus: '0.15'
+          memory: 150M
+        reservations:
+          cpus: '0.05'
+          memory: 80M
+    cap_drop:
+      - NET_RAW
+
+  web-1-2:
+    container_name: web-1-2
+    build: ./web-1-2
+    image: registry.capture.tf/wactf0x04/web-1-2
+    ports:
+      - 80:80
+    deploy:
+      resources:
+        limits:
+          cpus: '0.15'
+          memory: 150M
+        reservations:
+          cpus: '0.05'
+          memory: 100M
+    cap_drop:
+      - NET_RAW
+
+  web-2:
+    container_name: web-2
+    image: registry.capture.tf/wactf0x04/web-2
+    build: ./web-2
+    ports:
+      - "3000:3000"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.20'
+          memory: 150M
+        reservations:
+          cpus: '0.05'
+          memory: 100M
+    cap_drop:
+      - NET_RAW
+
+  web-2-2:
+    container_name: web-2-2
+    build: ./web-2-2
+    image: registry.capture.tf/wactf0x04/web-2-2
+    ports:
+      - 80:8000
+    deploy:
+      resources:
+        limits:
+          cpus: '0.30'
+          memory: 150M
+        reservations:
+          cpus: '0.05'
+          memory: 20M
+    cap_drop:
+      - NET_RAW
+
+  web-3:
+    container_name: web-3
+    build: ./web-3
+    image: registry.capture.tf/wactf0x04/web-3
+    ports:
+      - 80:80
+    deploy:
+      resources:
+        limits:
+          cpus: '0.20'
+          memory: 150M
+        reservations:
+          cpus: '0.05'
+          memory: 80M
+    cap_drop:
+      - NET_RAW
+      
+  web-4:
+    container_name: web-4
+    build: ./web-4
+    image: registry.capture.tf/wactf0x04/web-4
+    ports:
+      - 80:80
+    deploy:
+      resources:
+        limits:
+          cpus: '0.15'
+          memory: 150M
+        reservations:
+          cpus: '0.05'
+          memory: 100M
+    cap_drop:
+      - NET_RAW
+      
+  web-5:
+    container_name: web-5
+    build: ./web-5
+    image: registry.capture.tf/wactf0x04/web-5
+    ports:
+      - 80:8080
+    deploy:
+      resources:
+        limits:
+          cpus: '0.10'
+          memory: 150M
+        reservations:
+          cpus: '0.05'
+          memory: 30M
+    cap_drop:
+      - NET_RAW
+
+  # Crypto chals
+  crypto-4:
+    container_name: crypto-4
+    build: ./crypto-4
+    image: registry.capture.tf/wactf0x04/crypto-4
+    ports:
+      - 80:8000
+    deploy:
+      resources:
+        limits:
+          cpus: '0.20'
+          memory: 100M
+        reservations:
+          cpus: '0.10'
+          memory: 80M
+    cap_drop:
+      - NET_RAW
+  
+  crypto-5:
+    container_name: crypto-5
+    build: ./crypto-5
+    image: registry.capture.tf/wactf0x04/crypto-5
+    ports:
+      - 80:5000
+    deploy:
+      resources:
+        limits:
+          cpus: '0.30'
+          memory: 200M
+        reservations:
+          cpus: '0.10'
+          memory: 100M
+    cap_drop:
+      - NET_RAW
+
+  # Exploit chals
+  exploit-2:
+    container_name: exploit-2
+    build: ./exploit-2/
+    image: registry.capture.tf/wactf0x04/exploit-2
+    ports:
+      - 31337:31337
+      - 1337:1337
+    deploy:
+      resources:
+        limits:
+          cpus: '0.15'
+          memory: 150M
+        reservations:
+          cpus: '0.05'
+          memory: 40M
+    cap_drop:
+      - NET_RAW
+  
+  exploit-3:
+    container_name: exploit-3
+    build: ./exploit-3
+    image: registry.capture.tf/wactf0x04/exploit-3
+    ports:
+      - 80:80
+    deploy:
+      resources:
+        limits:
+          cpus: '0.20'
+          memory: 200M
+        reservations:
+          cpus: '0.10'
+          memory: 80M
+    cap_drop:
+      - NET_RAW
+
+  exploit-4:
+    container_name: exploit-4
+    build: ./exploit-4
+    image: registry.capture.tf/wactf0x04/exploit-4
+    ports:
+      - "80:8000"
+      - "81:8001/udp"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.10'
+          memory: 100M
+        reservations:
+          cpus: '0.05'
+          memory: 40M
+    cap_drop:
+      - NET_RAW
+
+  exploit-5:
+    container_name: exploit-5
+    build: ./exploit-5
+    image: registry.capture.tf/wactf0x04/exploit-5
+    ports:
+      - "1300:1300"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.05'
+          memory: 30M
+        reservations:
+          cpus: '0.05'
+          memory: 20M
+    cap_drop:
+      - ALL
+    cap_add:
+    # needed for sudo
+      - SETGID 
+      - SETUID
+      - AUDIT_WRITE
+    # needed for chroot
+      - SYS_CHROOT
+
+  # Shellbox
+  shellbox: # naming here is important
+    build: ./shellbox
+    container_name: shellbox
+    hostname: shellbox
+    image: registry.capture.tf/wactf0x04/shellbox
+    ports:
+      - "22:22"
+      - "1337:1337"
+      - "2222:2222"
+      - "3333:3333"
+      - "4444:4444"
+      - "8000:8000"
+      - "8080:8080"
+      - "10000:10000"
+    cap_drop:
+      - ALL
+    cap_add:
+      - CHOWN
+      - FOWNER
+      - KILL
+      - SETGID
+      - SETUID
+      - NET_BIND_SERVICE
+      - SYS_CHROOT
+    deploy:
+      resources:
+        limits:
+          cpus: '0.05'
+          memory: 60M
+        reservations:
+          cpus: '0.05'
+          memory: 50M # 0: 16.82MiB / 1: 18.58MiB / 4: 23.04MiB
+
+  # DNS-check
+  # dns-check:
+  #   container_name: dns-check
+  #   image: registry.capture.tf/wactf0x04/dns-check
+  #   ports:
+  #     - 80:8000
+  #   deploy:
+  #     resources:
+  #       limits:
+  #         cpus: '0.05'
+  #         memory: 50M
+  #       reservations:
+  #         cpus: '0.05'
+  #         memory: 20M
+  #   cap_drop:
+  #     - NET_RAW

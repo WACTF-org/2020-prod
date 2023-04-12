@@ -1,0 +1,10 @@
+CREATE TABLE records (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  description TEXT NOT NULL,
+  amount INTEGER NOT NULL,
+  who_from TEXT NOT NULL,
+  who_to TEXT NOT NULL,
+  type INTEGER NOT NULL,
+  t_month TEXT NOT NULL,
+  owner TEXT NOT NULL
+);

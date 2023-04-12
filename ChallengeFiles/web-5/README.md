@@ -1,0 +1,1 @@
+Challenge moved to [dzflack/ctf-challenges#ggrf](https://github.com/dzflack/ctf-challenges#ggrf)

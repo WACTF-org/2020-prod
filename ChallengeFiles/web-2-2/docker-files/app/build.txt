@@ -1,0 +1,17 @@
+So go-sqlite3 fucking sucks. Big surprise? Anyway. It basically doesn't compile. Compiling with `CGO_ENABLED=0` produces this error: 2020/11/17 02:36:54 Binary was compiled with 'CGO_ENABLED=0', go-sqlite3 requires cgo to work. This is a stub`. Compiling without CGO causes the docker interpreter to bail out. The following works, however
+
+from kali (linux/amd64 build):
+
+`sudo go build -ldflags "-linkmode external -extldflags -static" main.go`
+# command-line-arguments
+/usr/bin/ld: /tmp/go-link-081399395/000010.o: in function `unixDlOpen':
+/root/go/src/github.com/mattn/go-sqlite3/sqlite3-binding.c:39981: warning: Using 'dlopen' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+/usr/bin/ld: /tmp/go-link-081399395/000016.o: in function `_cgo_26061493d47f_C2func_getaddrinfo':
+/tmp/go-build/cgo-gcc-prolog:58: warning: Using 'getaddrinfo' in statically linked applications requires at runtime the shared libraries from the glibc version used for linking
+
+scp hax:/tmp/app/main app/toctou
+
+Seems to work?
+Refs:
+https://github.com/mattn/go-sqlite3/pull/804
+

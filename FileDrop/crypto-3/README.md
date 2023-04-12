@@ -1,0 +1,1 @@
+Challenge moved to [dzflack/ctf-challenges#cache-em-all](https://github.com/dzflack/ctf-challenges#cache-em-all)
