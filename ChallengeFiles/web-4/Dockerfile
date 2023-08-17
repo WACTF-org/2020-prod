@@ -3,10 +3,7 @@
 # This is less accepted for random shit.
 
 # Use alpine for its efficiency and small attack surface.
-FROM httpd:2.4-alpine
-
-# Add a low priv user.
-RUN adduser -S -s /bin/false -H -D user
+FROM httpd:2.4-alpine3.13
 
 # Install apache, php, sudo, sqlite, php7 and required php7 modules.
 RUN apk update
@@ -25,12 +22,13 @@ RUN chmod 770 /var/www/localhost/htdocs/db/secure-books.db
 RUN rm -f /var/www/localhost/htdocs/index.html
 
 # Composer
-RUN curl -sS https://getcomposer.org/installer | php
-RUN mv composer.phar /usr/local/bin/composer
-RUN chmod +x /usr/local/bin/composer
-RUN composer self-update
+#RUN curl -sS https://getcomposer.org/installer | php
+#RUN mv composer.phar /usr/local/bin/composer
+#RUN chmod +x /usr/local/bin/composer
+#RUN composer self-update
+COPY --from=composer:2.0.13 /usr/bin/composer /usr/local/bin/composer
 
-RUN cd /var/www/localhost/htdocs/ && composer install 
+RUN cd /var/www/localhost/htdocs/ && composer install
 
 RUN chown -R apache:apache /var/www/logs/
 # CMD httpd -D FOREGROUND
